@@ -1,0 +1,379 @@
+/*
+General
+*/
+body{
+	font-family: 'raleway', 'Arial';
+	font-size: 10px;
+	font-color: #fff;
+	font-weight: 400;
+	letter-spacing: 1px;
+	background: #003153;
+}
+/*
+header
+*/
+header{
+	background: url("images/homeBg.png") top center repeat-y;
+	min-height: 760px;
+	width: 100%;
+	padding: 50px;
+}
+/*
+navbar
+*/
+.navbar{
+	position: none;
+	background: 0;
+	padding: 0;
+	border: 0;
+}
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>li>a:hover{
+  	background: 0;
+  	color: #ff9;
+  	border-bottom: 5px #ff0 solid;
+  	font-size: 15px;
+}
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus,
+.navbar-default .navbar-nav>li>a
+{
+	color: #fff;
+	padding: 10px;
+	font-size: 15px;
+}
+.color.btn-success,  .wdev.btn-success{
+	background-color: #16a085;
+	border-color: #16a085;
+}
+/*
+slogan
+*/
+.slogan{
+	margin-top: 7%;
+}
+.slogan h3{
+	font-size: 36px;
+	font-weight: 300;
+	color: #fff;
+	margin-bottom: 30px;
+}
+.slogan h1{
+	font-size: 50px;
+	color: #ff0;
+	margin-bottom: 30px;
+}
+.slogan p{
+	font-size: 22px;
+	text-align: justify;
+	margin-bottom: 5%;
+	font-weight: 300;
+	color: #fff;
+}
+.slogan span{
+	font-weight: 600;
+	color: #ff0;
+	text-decoration: underline;
+}
+/*
+buttons
+*/
+.buttons{
+	margin-top: 2%;
+}
+.buttons .btn{
+	line-height: 24px;
+}
+h1{
+	font-size: 32px;
+	margin: 40px 0;
+}
+/*
+portfolio
+*/
+.portfolio{
+	background: url(images/portfolio.png) top center  repeat-y;
+	width: 100%;
+	min-height:760px; 
+}
+.portfolio h1{
+	color: #219452;
+}
+.portfolio p{
+	color: #000;
+	font-size: 17px;
+	font-family: tahoma;
+	direction: rtl;
+	text-align: justify;
+	line-height: 35px;
+	margin-bottom: 40px;
+}
+.portfolio img{
+
+}
+/*
+courses
+*/
+.courses{
+	background: url(images/courses-bg.png) top center repeat-y;
+	min-height: 760px;
+	width: 100%;
+}
+.courses h1{
+	color: #ff0;
+}
+.PreNxt{
+	margin: 40px 0;
+} 
+.Crs {
+	height: 216px;
+}
+
+.Crs img{
+	border-radius: 0 0 3px 3px;
+	width: 100%;
+	height: 165px;
+}
+.develop{
+	margin-top:40px;
+}
+.Crs:nth-child(2) h2,.Crs:nth-child(2) span{
+	color:#27ae60;
+	background:#27ae60; 
+}
+.Crs:nth-child(3) h2,.Crs:nth-child(3) span{
+	color:#2980b9;
+	background:#2980b9; 
+}
+.Crs:nth-child(4) h2,.Crs:nth-child(4) span{
+	color:#315478;
+	background:#315478; 
+}
+.Crs:nth-child(5) h2,.Crs:nth-child(5) span{
+	color:#2c3e50;
+	background:#2c3e50; 
+}
+.Crs:nth-child(6) h2,.Crs:nth-child(6) span{
+	color:#27ae60;
+	background:#27ae60; 
+}
+.Crs h2{
+	color: #fff !important;
+	border-radius: 3px 3px 00;
+	background: #16a085 ;
+	height: 40px;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: center;;
+	font-size: 15px;
+	line-height: 40px;
+}
+.Crs span{
+	background: none !important;
+	font-size: 60px;
+	color: #16a085;
+	margin-top:-110px;
+	margin-left: 55px;
+	display: block; 
+}
+/*
+Gallery
+*/
+.Gallery{
+	background: url("images/gallary-bg.png") top center repeat-y ;
+	min-height: 760px;
+	width: 100%;
+}
+.slides{
+	padding-top: 110px;
+	padding-left: 94px;
+}
+.arrows{
+	padding-top: 28%;
+}
+.arrow{
+	background: url(images/arrs.png) no-repeat;
+	width: 66px;
+	height: 66px;
+	display: block;
+
+}
+.arrow-left{
+	background-position: 0 0;
+}
+.arrow-right{
+	background-position: -66px 0;
+}
+.studentsProjects{
+	background: url("images/Sprojects-bg.png") top center repeat-y ;
+	min-height: 760px;
+	width: 100%;
+}
+.studentsProjects img{
+	border-radius: 10px;
+	margin-bottom: 40px;
+	width: 100%;
+}
+.studentsProjects h1{
+	color: #ff0;
+}
+/*
+Articles
+*/
+.Articles{
+	background: url("images/articles-bg.png") top center repeat-y ;
+	min-height: 760px;
+	width: 100%;
+}
+.Articles h2{
+	background: #00385e;
+	text-align: center;
+	padding: 5%;
+	width: 100%;
+	min-height: 80px;
+	font-size: 20px; 
+}
+.Articles img{
+	width: 100%;
+}
+.Contacts{
+	background: url("images/footer-bg.jpg") top center repeat-y ;
+	min-height: 760px;
+	width: 100%;
+}
+.Contacts h1{
+	color: #ff0;
+}
+.Contacts input[type="text"],.Contacts input[type="email"]{
+	width: 80%;
+	margin-bottom: 20px;
+	background: 0;
+	color: #fff;
+}
+.Contacts textarea{
+	margin-bottom: 20px;
+	background: 0;
+	color: #fff;
+	height: 255px;
+	font-size: 15px;
+}
+.Contacts input[type="submit"]{
+	width: 40%;
+}
+.Mycontact{
+	clear: both;
+	margin-bottom: 20px;
+}
+.Mycontact h3{
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 32px;
+	color: #fff;
+}
+.Mycontact img{
+	float: left;
+	margin-right: 5px;
+}
+.copy{
+	margin-top: 100px;
+	color: #ff0;
+}
+/* Extra small devices (phones, less than 768px) */
+@media (max-width: 767px) { 
+	.navbar-toggle{
+		margin-right: 0px; 
+	}
+	.navbar-default .navbar-nav > li > a:hover,
+	.navbar-default .navbar-nav > li > a:focus{
+		color: #ff9;
+	}
+	.slogan{
+		text-align: center;
+	}
+	.slogan h3{
+		font-size: 27px;
+	}
+	.slogan h1{
+		font-size: 32px;
+	}
+	.buttons .btn{
+		margin-top: 20px;
+	}
+	.search .btn{
+		width: 100%;
+		margin-top: 10px;
+	}
+	.slogan p{
+		font-size: 18px;
+	}
+	.portfolio img {
+	    margin: 20px auto;
+	    border: 5px solid #666;
+	}
+	.PreNxt{
+		margin-top: 0;
+		text-align: center;
+	}
+	.Crs{
+		text-align: center;
+		margin-bottom: 100px;
+	}
+	.Crs span{
+		margin-top: -150px;
+		margin-left: 0;
+	}
+	.studentsProjects img{
+		width: 100%;
+	}
+	.Contacts h1, .Articles h1, .Courses h1{
+		text-align: center;
+	}
+	.Contacts input[type="text"],.Contacts input[type="email"]{
+		width: 100%;
+	}
+	.Mycontact img{
+		width: 6%;
+		height: auto;
+	}
+	.Mycontact h3 {
+	    font-size: 16px;
+	    font-weight: 300;
+	    line-height: 26px;
+	}
+	.copy {
+	    margin-top: 20px;
+	    margin-bottom: 20px;
+	}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.logo{
+		margin-bottom: 30px;
+	}
+	#mainMenu{
+		margin-left: -15px;
+	}
+	.slides {
+    padding-top: 132px;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.logo{
+		margin-bottom: 40px;
+	}
+	#mainMenu{
+		margin-left: -15px;
+	}
+	.navbar-default .navbar-nav > li > a,
+	.navbar-default .navbar-nav > li > a:hover{
+		padding:10px 16px;
+	}
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
